@@ -1,10 +1,10 @@
 Title: Visualizing Strava Tracks with Python
 Date: 2015-01-22 19:10
-Modified: 2010-01-26 21:40
-Category: Data Visualization
+Modified: 2015-01-26 21:40
+Category: dev
 Tags:
-Summary: ![Visualizing Strava Tracks with Python]({filename}/_img/visualizing-strava-tracks-with-python/summary.png)
-Slug: visualizing-strava-tracks-with-python
+Summary: ![Visualizing Strava Tracks with Python]({filename}/img/visualizing-strava-tracks-with-python/summary.png)
+Slug: 20150122-visualizing-strava-tracks-with-python
 Authors: Andy Kee
 
 
@@ -12,7 +12,7 @@ I love using [Strava](http://www.strava.com) to track of my biking and snowboard
 
 Strava generally does a nice job of allowing you to explore individual activities, but no method exists for simultaneously visualizing multiple activities. I commonly ride the same trails but slightly vary my route. Take the ride below for example: this represents one of perhaps a dozen different rides I've done on this same trail system. It would be nice to visualize where I ride the most and where I ride the least.
 
-![Strava's activity overview]({filename}/_img/visualizing-strava-tracks-with-python/strava.png)
+![Strava's activity overview]({filename}/img/visualizing-strava-tracks-with-python/strava.png)
 
 Thankfully, Strava makes it really easy to export raw position data from completed activities as GPX files. GPX (GPS Exchange Format) is an XML data format for GPS data. The GPX format is able to describe waypoints, tracks, and routes. Strava uses tracks to store activity position data as follows:
 
@@ -63,7 +63,7 @@ Finally, `matplotlib` allows us to plot the activity:
     fig.add_axes(ax)
     plt.plot(lon, lat, color = 'deepskyblue', lw = 0.2, alpha = 0.8)
 
-![LPQ ride on Sept. 18, 2014]({filename}/_img/visualizing-strava-tracks-with-python/lpq-single.png)
+![LPQ ride on Sept. 18, 2014]({filename}/img/visualizing-strava-tracks-with-python/lpq-single.png)
 
 The resulting plot, unsurprisingly, looks like the track we saw on Strava's web app (above). This little bit of code provides the foundation for exploring and visualizing trail usage trends over time.
 
@@ -104,12 +104,12 @@ With a little more Python code, we can read in a bunch of Strava activities from
     filename = data_path + '.png'
     plt.savefig(filename, facecolor = fig.get_facecolor(), bbox_inches='tight', pad_inches=0, dpi=300)
 
-![2014 LPQ Rides]({filename}/_img/visualizing-strava-tracks-with-python/lpq.png)
+![2014 LPQ Rides]({filename}/img/visualizing-strava-tracks-with-python/lpq.png)
 
 I made a few more for two other trail systems I commonly ride. Next up: visualizing my [Moves](http://www.moves-app.com) data.
 
-![2014 Daley Ranch Rides]({filename}/_img/visualizing-strava-tracks-with-python/daley.png)
+![2014 Daley Ranch Rides]({filename}/img/visualizing-strava-tracks-with-python/daley.png)
 
-![2014 Laguna Mountain Rides]({filename}/_img/visualizing-strava-tracks-with-python/laguna.png)
+![2014 Laguna Mountain Rides]({filename}/img/visualizing-strava-tracks-with-python/laguna.png)
 
-![AK]({filename}/_img/ak.png)
+![AK]({filename}/img/ak.png)

@@ -19,7 +19,7 @@ DATE_FORMATS = {'en': '%b %d, %Y'}
 PLUGIN_PATHS = ['plugins']
 PLUGINS = ['render_math']
 
-STATIC_PATHS = ['_img']
+STATIC_PATHS = ['img']
 
 # Theme settings
 THEME = 'themes/pure-single'
@@ -32,8 +32,9 @@ GOOGLE_ANALYTICS = 'UA-2815076-3'
 MENUITEMS = [
     ('all', 'archives.html'),
     #('categories', 'categories.html'),
-    #('drones', 'category/drones.html'),
-    ('data visualization', 'category/data-visualization.html'),
+    ('dev', 'category/dev.html'),
+    ('eats', 'categories/eats.html'),
+    ('outdoors', 'categoty/outdoors.html'),
     ('travel', 'category/travel.html')
 ]
 
