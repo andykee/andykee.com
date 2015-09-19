@@ -1,0 +1,17 @@
+# Compiled Python files
+*.pyc
+__pycache__/
+
+# Folder view configuration files
+.DS_Store
+Desktop.ini
+
+# Thumbnail cache files
+._*
+Thumbs.db
+
+# dotfiles .extra file (we won't version control it since it's machine-specific)
+*.extra
+
+# Pelican output directory
+output/
