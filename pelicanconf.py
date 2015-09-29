@@ -35,7 +35,8 @@ MENUITEMS = [
     ('dev', 'category/dev.html'),
     ('eats', 'categories/eats.html'),
     ('outdoors', 'categoty/outdoors.html'),
-    ('travel', 'category/travel.html')
+    ('travel', 'category/travel.html'),
+    ('wfsc', 'category/wfsc.htnl')
 ]
 
 # Social links
