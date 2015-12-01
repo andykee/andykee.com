@@ -32,9 +32,12 @@ GOOGLE_ANALYTICS = 'UA-2815076-3'
 MENUITEMS = [
     ('all', 'archives.html'),
     #('categories', 'categories.html'),
+    ('cities', 'category/cities.html'),
     ('dev', 'category/dev.html'),
-    ('eats', 'categories/eats.html'),
+    ('eats', 'category/eats.html'),
+    ('img', 'category/img.html'),
     ('outdoors', 'categoty/outdoors.html'),
+    ('ref', 'category/ref.html'),
     ('travel', 'category/travel.html'),
     ('wfsc', 'category/wfsc.htnl')
 ]
