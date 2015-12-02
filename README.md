@@ -1,9 +1,8 @@
-fab build to build blog
+make build to build blog
 
-fab serve to serve it up on localhost:8000
+make serve to serve it up on localhost:8000
 
-fab publish to build and publish blog
-
+make s3\_upload to push to Amazin S3
 
 
 embed videos with https://github.com/davatron5000/FitVids.js
