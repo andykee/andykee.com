@@ -1,5 +1,7 @@
 fab build to build blog
+
 fab serve to serve it up on localhost:8000
+
 fab publish to build and publish blog
 
 
