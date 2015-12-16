@@ -22,7 +22,7 @@ PLUGINS = ['render_math']
 STATIC_PATHS = ['img']
 
 # Theme settings
-THEME = 'themes/pure-single'
+THEME = 'themes/tech-engineering'
 COVER_IMG_URL = 'http://www.andykee.com/theme/images/background.jpg'
 FAVICON_URL = 'http://www.andykee.com/theme/images/favicon.ico'
 TAGLINE = 'random musings'
