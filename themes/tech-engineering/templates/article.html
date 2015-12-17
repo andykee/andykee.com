@@ -16,13 +16,20 @@
                         <span class="post-author">{{ author }}</span>
                     {% endfor %}
                 {% endif %}
+                <i class="fa fa-calendar"></i>
                 <span class="post-date">{{ article.date|strftime('%B %d, %Y') }}</span>
+                {% if article.tags %}
+                <i class="fa fa-tag"></i>
+                    {% for tag in article.tags %}
+                    <a href="{{ SITEURL }}/tag/{{ tag }}.html" class="post-tag">{{ tag }}</a>
+                    {% endfor %}
+                {% endif %}    
             </p>
         </div>
     </div>
 
     <div class="content">
-        <div class="article-body">
+        <div class="markdown-body">
             {{ article.content }}
         </div>
     </div>

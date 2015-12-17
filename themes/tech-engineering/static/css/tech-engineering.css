@@ -117,6 +117,7 @@ h1 a:hover {
 
 .post-date {
     white-space: nowrap;
+    margin-right: 12px;
 }
 
 .post-author { 
@@ -136,27 +137,31 @@ h1 a:hover {
     top: -2px;
 }
 
+.post-tag {
+    margin-right: 4px;
+}
+
 .callout .meta {
     color: #B7BFD6;
 }
 
-.callout .article-body {
+.callout .markdown-body {
     color: #DDE3F5;
 }
 
-.article-body {
+.markdown-body {
     margin-top: 18px;
 }
 
-.article-body a {
+.markdown-body a {
     text-decoration: underline;
 }
 
-.article-body a:hover {
+.markdown-body a:hover {
     text-decoration: none;
 }
 
-.callout .article-body a {
+.callout .markdown-body a {
     color: #fff;
 }
 
