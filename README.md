@@ -1,3 +1,11 @@
+
+fab build
+fab regenerate
+fab serve
+fab publish
+
+
+
 make build to build blog
 
 make serve to serve it up on localhost:8000

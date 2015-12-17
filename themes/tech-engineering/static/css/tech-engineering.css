@@ -1,0 +1,172 @@
+html {
+    font-size: 18px;
+    padding: 0;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #555;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #465CA2;
+}
+
+header, footer, section {
+    padding: 0 20px;
+}
+
+article, .content {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+article, .callout .content {
+    padding: 40px 0;
+}
+
+article + article {
+    padding-top: 0;
+}
+
+.callout {
+    background: #ccc;
+    margin: 0 -20px;
+    padding: 0 20px;
+    background: #345d9f;
+    background: -moz-linear-gradient(top, #345d9f 0%, #4D5CA4 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#345d9f), color-stop(100%,#4D5CA4));
+    background: -webkit-linear-gradient(top, #345d9f 0%,#4D5CA4 100%);
+    background: -o-linear-gradient(top, #345d9f 0%,#4D5CA4 100%);
+    background: -ms-linear-gradient(top, #345d9f 0%,#4D5CA4 100%);
+    background: linear-gradient(to bottom, #345d9f 0%,#4D5CA4 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#345d9f', endColorstr='#4D5CA4',GradientType=0 );
+}
+
+.callout .meta a {
+    color: #fff;
+}
+
+.callout .meta a:hover {
+    color: #B7BFD6;
+}
+
+header {
+    background: #2A2C2E;
+    overflow: hidden;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+header a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+}
+
+header a:hover {
+    opacity: 0.7;
+}
+
+
+
+
+
+
+
+h1 {
+    font-size: 37px;
+    line-height: 1.1;
+    font-weight: 300;
+    margin-top: -6px;
+}
+
+h1 a {
+    color: #222;
+    text-decoration: none;
+}
+
+h1 a:hover {
+    color: #465CA2;
+}
+
+.callout h1 a {
+    color: #fff;
+}
+
+.callout h1 a:hover {
+    color: #B7BFD6;
+}
+
+.meta {
+    font-size: 85%;
+    vertical-align: middle;
+    color: #989898;
+    margin-top: 8px;
+}
+
+.meta a {
+    color: #222;
+}
+
+.meta a:hover {
+    color: #465CA2;
+}
+
+.post-date {
+    white-space: nowrap;
+}
+
+.post-author { 
+    margin-right: 12px;
+}
+
+.post-author-image {
+    margin-right: 2px;
+}
+
+.post-author-image img {
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    vertical-align: middle;
+    position: relative;
+    top: -2px;
+}
+
+.callout .meta {
+    color: #B7BFD6;
+}
+
+.callout .article-body {
+    color: #DDE3F5;
+}
+
+.article-body {
+    margin-top: 18px;
+}
+
+.article-body a {
+    text-decoration: underline;
+}
+
+.article-body a:hover {
+    text-decoration: none;
+}
+
+.callout .article-body a {
+    color: #fff;
+}
+
+.article-body:first-child {
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+
+code {
+    font-family: Consolas, 'Liberation Mono', Menlo, Courierm monospace;
+    font-size: 12px;
+}
+

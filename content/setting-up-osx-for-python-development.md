@@ -5,7 +5,7 @@ Category: dev
 Tags: python, osx
 Summary:
 Slug: setting-up-osx-for-python-development
-Authors: Andy Kee
+Authors: AK
 
 
 This is how I set up my Python development environment on OSX. I had a few goals in mind that led me to this configuration:
