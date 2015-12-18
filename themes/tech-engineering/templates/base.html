@@ -25,6 +25,7 @@
         <link rel="stylesheet" href="{{ SITEURL }}/theme/css/reset.css" />
         <link rel="stylesheet" href="{{ SITEURL }}/theme/css/tech-engineering.css" />
         <link rel="stylesheet" href="{{ SITEURL }}/theme/css/markdown.css" />
+        <link rel="stylesheet" href="{{ SITEURL }}/theme/css/pygments.css" />
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" /> 
     
     
@@ -35,7 +36,7 @@
         <div class="content">
             <h2><a href="{{ SITEURL }}/">{{ SITENAME }} {{ SITESUBTITLE }}</a></h2>
         </div>            
-    </header><!-- /#banner -->
+    </header>
 
 
     {#
@@ -59,13 +60,23 @@
         #}
 
 
-        {% block content %}
-        {% endblock %}
+{% block content %}
+{% endblock %}
+    
+<footer>
+<div class="content">
+    <p>Tags and categories and the like go here. Either 3 or 4 columns</p>
+    <p>© 2015 AK - Powered by <a href="http://blog.getpelican.com">Pelican</a> and <a href="http://www.python.org">Python</a>
+</div>
+</footer>
+
+
+        {#
         <footer id="contentinfo" class="body">
                 <address id="about" class="vcard body">
                 Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
                 which takes great advantage of <a href="http://python.org">Python</a>.
                 </address><!-- /#about -->
-        </footer><!-- /#contentinfo -->
+                </footer><!-- /#contentinfo -->#}
 </body>
 </html>
