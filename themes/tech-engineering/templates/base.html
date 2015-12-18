@@ -65,18 +65,37 @@
     
 <footer>
 <div class="content">
-    <p>Tags and categories and the like go here. Either 3 or 4 columns</p>
+    <div class="colwrapper clearfix">
+    <div class="col3">
+        <h2>Categories</h2>
+        <ul>
+            {% for cat, null in categories %}
+            <li><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+    <div class="col3">
+        <h2>Tags</h2>
+        <ul>
+            {% for tag, null in tags %}
+            <li><a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+    <div class="col3">
+        <h2>Links</h2>
+        <ul>
+            {% for title, link in LINKS %}
+            <li><a href="{{ link }}">{{ title }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+    </div>
     <p>© 2015 AK - Powered by <a href="http://blog.getpelican.com">Pelican</a> and <a href="http://www.python.org">Python</a>
 </div>
 </footer>
 
+{% include 'analytics.html' %}
 
-        {#
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
-                which takes great advantage of <a href="http://python.org">Python</a>.
-                </address><!-- /#about -->
-                </footer><!-- /#contentinfo -->#}
 </body>
 </html>

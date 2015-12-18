@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Andy Kee'
-SITENAME = 'ANDYKEE.com'
+SITENAME = 'AK'
 #SITEURL = 'http://andykee.com'
 
 PATH = 'content'
@@ -23,31 +23,14 @@ STATIC_PATHS = ['img']
 
 # Theme settings
 THEME = 'themes/tech-engineering'
-COVER_IMG_URL = 'http://www.andykee.com/theme/images/background.jpg'
 FAVICON_URL = 'http://www.andykee.com/theme/images/favicon.ico'
-TAGLINE = 'random musings'
 GOOGLE_ANALYTICS = 'UA-2815076-3'
 
-# Menu
-MENUITEMS = [
-    ('all', 'archives.html'),
-    #('categories', 'categories.html'),
-    ('cities', 'category/cities.html'),
-    ('dev', 'category/dev.html'),
-    ('eats', 'category/eats.html'),
-    ('img', 'category/img.html'),
-    ('outdoors', 'categoty/outdoors.html'),
-    ('ref', 'category/ref.html'),
-    ('travel', 'category/travel.html'),
-    ('wfsc', 'category/wfsc.htnl')
-]
-
-# Social links
-SOCIAL = (
-    ('facebook-square', 'http://facebook.com/andrewkee/'),
-    ('instagram', 'http://instagram.com/andykee'),
-    ('linkedin-square', 'http://linkedin.com/in/andykee/'),
-    ('github', 'https://github.com/andykee/'),
+LINKS = (
+    ('Facebook', 'http://facebook.com/andrewkee/'),
+    ('Instagram', 'http://instagram.com/andykee'),
+    ('Linkedin', 'http://linkedin.com/in/andykee/'),
+    ('Github', 'https://github.com/andykee/'),
 )
 # YOUTUBE!
 # the first value of the tuple is the icon name from http://fontawesome.io/icons/ after stripping `fa-` (eg. `fa-github` will be `github`)
