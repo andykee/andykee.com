@@ -86,6 +86,10 @@ h1 a:hover {
     color: #465CA2;
 }
 
+.callout h1 {
+    color: #fff;
+}
+
 .callout h1 a {
     color: #fff;
 }
