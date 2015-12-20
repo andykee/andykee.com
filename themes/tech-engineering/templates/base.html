@@ -27,7 +27,7 @@
         <link rel="stylesheet" href="{{ SITEURL }}/theme/css/markdown.css" />
         <link rel="stylesheet" href="{{ SITEURL }}/theme/css/pygments.css" />
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" /> 
-    
+        <link rel="stylesheet" href="{{ SITEURL }}/theme/tipuesearch/tipuesearch.css" />    
     
 </head>
 
@@ -35,6 +35,10 @@
     <header>
         <div class="content">
             <h2><a href="{{ SITEURL }}/">{{ SITENAME }} {{ SITESUBTITLE }}</a></h2>
+            <form action="/search.html" onsubmit="return (this.elements['q'].value.length > 0)">
+                <input id="tipue_search_input" type="text" name="q" size="12" placeholder="Search">
+            </form>
+        
         </div>            
     </header>
 
