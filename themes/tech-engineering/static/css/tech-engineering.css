@@ -56,8 +56,13 @@ article + article {
 header {
     background: #2A2C2E;
     overflow: hidden;
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+header h2 {
+    font-size: 20px;
 }
 
 header a {
@@ -277,4 +282,16 @@ footer ul {
 
 footer .col3 {
     text-align: left;
+}
+
+.header-left {
+    width: 100px;
+    float: left;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.header-right {
+    float: right;
 }

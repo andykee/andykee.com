@@ -25,6 +25,7 @@ var tipuesearch_replace = {'words': [
 
 
 // Weighting
+var tipuesearch_weight = {'weight': []};
 
 //var tipuesearch_weight = {'weight': [
 //     {'url': 'http://www.tipue.com', 'score': 200},
@@ -47,8 +48,8 @@ var tipuesearch_stem = {'words': [
 var tipuesearch_string_1 = 'No title';
 var tipuesearch_string_2 = 'Showing results for';
 var tipuesearch_string_3 = 'Search instead for';
-var tipuesearch_string_4 = '1 result';
-var tipuesearch_string_5 = 'results';
+var tipuesearch_string_4 = '1 result for';
+var tipuesearch_string_5 = 'results for';
 var tipuesearch_string_6 = 'Prev';
 var tipuesearch_string_7 = 'Next';
 var tipuesearch_string_8 = 'Nothing found';

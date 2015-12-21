@@ -33,11 +33,15 @@
 
 <body>
     <header>
-        <div class="content">
+    <div class="content">
+        <div class="header-left">
             <h2><a href="{{ SITEURL }}/">{{ SITENAME }} {{ SITESUBTITLE }}</a></h2>
-            <form action="/search.html" onsubmit="return (this.elements['q'].value.length > 0)">
+        </div>    
+        <div class="header-right">
+            <form id="tipue" action="/search.html" onsubmit="return (this.elements['q'].value.length > 0)">
                 <input id="tipue_search_input" type="text" name="q" size="12" placeholder="Search">
             </form>
+        </div>
         
         </div>            
     </header>

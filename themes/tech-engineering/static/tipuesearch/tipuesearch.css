@@ -9,29 +9,30 @@ http://www.tipue.com/search
 
 #tipue_search_input
 {
-     font: 13px/1.6 'open sans', sans-serif;
+    font-size: 13px;
 	color: #333;
-	padding: 12px 12px 12px 40px;
+	padding: 4px 40px 4px 4px;
 	width: 170px;
 	border: 1px solid #e2e2e2;
-	border-radius: 0;
+	border-radius: 3px;
 	-moz-appearance: none;
 	-webkit-appearance: none;
      box-shadow: none; 
 	outline: 0;
 	margin: 0;
-	background: #fff url('img/search.png') no-repeat 15px 15px;
+    background: #fff url('img/search.png') no-repeat;
+    background-position: right 10px center;
 }
 
 #tipue_search_content
 {
-     max-width: 650px;
-	padding-top: 15px;
-	margin: 0;
+    max-width: 650px;
+	padding: 30px 0;
+	margin: 0 auto;
 }
 #tipue_search_warning
 {
-     font: 300 15px/1.6 'Open Sans', sans-serif;
+    font-size: 15px;
 	color: #555;
 	margin: 7px 0;
 }
@@ -46,56 +47,61 @@ http://www.tipue.com/search
 }
 #tipue_search_results_count
 {
-     font: 300 15px/1.7 'Open Sans', sans-serif;
+    font-size: 20px;
 	color: #555;
+    padding-bottom: 30px;
 }
 .tipue_search_content_title
 {
-     font: 300 21px/1.7 'Open Sans', sans-serif;
-	margin-top: 23px;
+    font-size: 37px;
+    line-height: 1.1;
+    font-weight: 300;
+	margin-top: -6px;
+    color: #222;
 }
 .tipue_search_content_title a
 {
-     color: #333;
-     text-decoration: none;
+    color: #222; 
+    text-decoration: none;
 }
 .tipue_search_content_title a:hover
 {
-     color: #555;
+     color: #465CA2;
 }
 .tipue_search_content_url
 {
-     font: 300 14px/1.9 'Open Sans', sans-serif;
-     word-wrap: break-word;
-     hyphens: auto;
+    font-size: 14px;
+    word-wrap: break-word;
+    hyphens: auto;
+    margin-top: 8px;
 }
 .tipue_search_content_url a
 {
-     color: #396;
-     text-decoration: none;
+    color: #989898;
+    text-decoration: none;
 }
 .tipue_search_content_url a:hover
 {
-     color: #555;   
 }
 .tipue_search_content_text
 {
-     font: 300 15px/1.6 'Open Sans', sans-serif;
-	color: #555;
-     word-wrap: break-word;
-     hyphens: auto;
-     margin-top: 3px;
+    font-size: 16px;
+    color: #555;
+    word-wrap: break-word;
+    hyphens: auto;
+    margin-top: 18px;
+    padding-bottom: 40px;
 }
 .tipue_search_content_debug
 {
-     font: 300 13px/1.6 'Open Sans', sans-serif;
+    font-size: 13px;
 	color: #555;
      margin: 5px 0;
 }
 .h01
 {
      color: #333;
-     font-weight: 400;
+     font-weight: 800;
 }
 
 #tipue_search_foot
@@ -106,7 +112,7 @@ http://www.tipue.com/search
 {
 	padding: 0;
 	margin: 0;
-     font: 12px 'Open Sans', sans-serif;
+    font-size: 12px;
 }
 #tipue_search_foot_boxes li
 {

@@ -354,12 +354,12 @@ http://www.tipue.com/search
                               }
                               if (c == 1)
                               {
-                                   out += '<div id="tipue_search_results_count">' + tipuesearch_string_4 + '</div>';
+                                   out += '<div id="tipue_search_results_count">' + tipuesearch_string_4 + ' ' + d + '</div>';
                               }
                               else
                               {
                                    c_c = c.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-                                   out += '<div id="tipue_search_results_count">' + c_c + ' ' + tipuesearch_string_5 + '</div>';
+                                   out += '<div id="tipue_search_results_count">' + c_c + ' ' + tipuesearch_string_5 + ' ' + d + '</div>';
                               }
                               
                               found.sort(function(a, b) { return b.score - a.score } );
