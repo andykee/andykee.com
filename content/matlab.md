@@ -1,10 +1,10 @@
-Title: Matlab Ref 
-Date: 2015-12-01 11:00
-Modified: 2015-12-01 11:00
+Title: The Elements of MATLAB Style 
+Date: 2016-01-03 19:49
+Modified: 2016-01-03 19:49
 Category: ref
-Tags:
+Tags: matlab
 Summary:
-Slug: matlab
-Authors: Andy Kee
+Slug: elements-of-matlab-style
+Authors: AK
 
 

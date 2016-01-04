@@ -18,7 +18,7 @@ Previously I had been doing all of my development in Python 3 with virtualenv/vi
 
 The community seems to like managing multiple versions of Python with [pyenv](https://github.com/yyuu/pyenv) and then using [pyenv-virtualenv](https://github.com/yyuu/pyenv-virtualenv) to manage virtualenvs. I really liked pyenv, but couldn't get pyenv-virtualenv to work for me. Coming from virtualenvwrapper it was very clunky and had some frustrating bugs. 
 
-Instead, I arrived at a solution that uses only virtualenv and virtualenvwrapper to manage different versions of Python installedusing [Homebrew](http://brew.sh). It turns out that virtualenv already has the tools necessary to manage multiple versions of Python and I can continue using my familiar workflows thanks to virtualenvwrapper.
+Instead, I arrived at a solution that uses only virtualenv and virtualenvwrapper to manage different versions of Python installed using [Homebrew](http://brew.sh). It turns out that virtualenv already has the tools necessary to manage multiple versions of Python and I can continue using my familiar workflows thanks to virtualenvwrapper.
 
 ## Clean up
 If not starting with a fresh system, there may be some lingering installations of Python and its related tools. We need to uninstall these. First, remove old versions of Python (and any other Python-related detritus in `/usr/local/Cellar` with
@@ -109,13 +109,15 @@ Sometimes we still need to install things globally though, so we'll create a new
 
 Here's what we're left with:
 when not in a virtualenv
-    $ python <script> will run a script in python 2
-    $ python3 <script> will run a script in python 3
+    
+    python <script> will run a script in python 2
+    python3 <script> will run a script in python 3
+
 pip and pip3 work the same way
 
-when inside a virtualenv, just call python <script> and whatever version used to make the virtualenv will be used.
+when inside a virtualenv, just call `python <script>` and whatever version used to make the virtualenv will be used.
 
-When making new virtualenvs, mkvirtualenv -p python3 <name> for python 3.x virtual env
+When making new virtualenvs, `mkvirtualenv -p python3 <name>` for python 3.x virtual env
 
 
 

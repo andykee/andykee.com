@@ -18,6 +18,9 @@ article, .content {
     max-width: 650px;
     margin: 0 auto; }
 
+.content .markdown-body {
+    padding-bottom: 120px; }
+
 article, .callout .content {
     padding: 40px 0; }
 
