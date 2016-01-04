@@ -1,7 +1,7 @@
 Title: 2015 Santa Cruz 5010c 
 Date: 2015-12-31 11:00
 Modified: 2015-12-31 11:00
-Category: ref
+Category: outdoors
 Tags:
 Summary: Build log, specs, and maintenance info for my 2015 Santa Cruz 5010c.
 Slug: santa-cruz-5010c 

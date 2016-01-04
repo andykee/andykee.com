@@ -1,7 +1,7 @@
 Title: 2016 Goals
 Date: 2016-01-02 12:36
 Modified: 2016-01-02 12:36
-Category: general
+Category: personal 
 Tags:
 Summary: I've never had much luck sticking to New Year's resolutions. Making and indefinitely sticking with major life changes without concrete success criteria seems almost always doomed to fail. Instead, I've identified a bunch of bite-sized goals that can be completed in a month. Each month presents a new opportunity to work on something different. They aren't in any particular order, and I'm free to choose whichever one I want to work off at the beginning of each month. I figure if I succeed in completing 75% of these goals, I'm doing pretty well.
 Slug: goals-2016
