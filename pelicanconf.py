@@ -16,6 +16,8 @@ TYPOGRIFY = False
 
 DATE_FORMATS = {'en': '%b %d, %Y'}
 
+ARTICLE_ORDER_BY = 'reversed-modified'
+
 PLUGIN_PATHS = ['plugins']
 PLUGINS = ['render_math', 'tipue_search']
 
