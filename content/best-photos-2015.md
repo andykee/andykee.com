@@ -1,6 +1,5 @@
 Title: Best Photos of 2015
-Date: 2016-01-04 13:56
-Modified: 2016-01-04 13:56
+Date: 2016-01-04 
 Category: photos
 Tags:
 Summary: As the camera on the iPhone continues to improve, I find myself pulling out my DSLR less often. Having near-constant access to a pretty decent camera allows me to capture images I could have never dreamed of just a few years ago. Here's a look back at my best shots from 2015. 

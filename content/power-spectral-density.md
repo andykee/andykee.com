@@ -1,6 +1,5 @@
 Title: Power Spectral Density 
-Date: 2015-12-23 10:06
-Modified: 2016-01-05 15:49
+Date: 2015-12-23
 Category: eng 
 Tags: matlab, signal processing
 Summary: 

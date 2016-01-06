@@ -1,6 +1,5 @@
 Title: Optimized Wavefront Control for Segmented Mirror Telescopes
 Date: 2015-06-24
-Modified: 2015-06-24
 Category: control
 Slug: wfc-for-segmented-telescopes
 Status: draft

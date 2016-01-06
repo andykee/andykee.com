@@ -1,6 +1,5 @@
 Title: Japan 2014
-Date: 2015-01-19 18:00
-Modified: 2015-01-25 21:15
+Date: 2015-01-19
 Category: travel
 Tags:
 Summary: ![Japan 2014]({filename}/img/photo-essay-japan-2014/summary.jpg)

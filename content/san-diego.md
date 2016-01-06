@@ -1,6 +1,5 @@
 Title: 72 Hours in San Diego
-Date: 2015-02-13 17:00
-Modified: 2015-02-13 17:00
+Date: 2015-02-13
 Category: travel
 Tags:
 Summary: ![72 Hours in San Diego]({filename}/img/72-hours-in-san-diego/summary.jpg)

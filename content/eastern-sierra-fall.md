@@ -1,6 +1,5 @@
 Title: Eastern Sierra Fall
 Date: 2015-09-28
-Modified: 2015-09-28
 Category: outdoors
 Tags:
 Summary: ![Upper Owens]({filename}/img/20150911_2a.jpg)

@@ -1,6 +1,5 @@
 Title: Setting up OSX for Python Development 
-Date: 2015-12-15 10:30
-Modified: 2015-12-15 11:00
+Date: 2015-12-15
 Category: dev
 Tags: python, osx
 Summary: This is how I set up my Python development environment on OSX.

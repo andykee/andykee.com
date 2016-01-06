@@ -1,6 +1,5 @@
 Title: The Elements of MATLAB Style 
-Date: 2016-01-03 19:49
-Modified: 2016-01-04 16:18
+Date: 2016-01-03
 Category: dev
 Tags: matlab
 Summary: The following guide gives coding conventions for what I consider to be great MATLAB style. It includes details on syntax, layout, naming, basic patterns, project organization, and architecture. This style guide will evolve over time as I continue to collect and discover best practices.  
