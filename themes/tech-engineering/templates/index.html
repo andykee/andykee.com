@@ -20,7 +20,13 @@
                 {% endfor %}
             {% endif %}
             <i class="fa fa-calendar"></i>
-            <span class="post-date">{{ article.date|strftime('%B %d, %Y') }}</span>
+            <span class="post-date">
+            {% if article.modified %}
+                {{ article.modified|strftime('%B %d, %Y') }}
+            {% else %}
+                {{ article.date|strftime('%B %d, %Y') }}
+            {% endif %}
+            </span>
             </p>
             <div class="markdown-body"> {{ article.summary }} </div>
         </div>

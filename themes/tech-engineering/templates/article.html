@@ -17,7 +17,13 @@
                     {% endfor %}
                 {% endif %}
                 <i class="fa fa-calendar"></i>
-                <span class="post-date">{{ article.date|strftime('%B %d, %Y') }}</span>
+                <span class="post-date">
+                    {% if article.modified %}
+                        {{ article.modified|strftime('%B %d, %Y') }}
+                    {% else %}
+                        {{ article.date|strftime('%B %d, %Y') }}
+                    {% endif %}
+                </span>
                 {% if article.tags %}
                 <i class="fa fa-tag"></i>
                     {% for tag in article.tags %}
@@ -57,7 +63,7 @@
       {{ article.locale_modified }}
     </time>
 	{% endif %}
-    {% if article.authors %}
+    {% if article.author    s %}
     <address class="vcard author">
       By {% for author in article.authors %}
           <a class="url fn" href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>
