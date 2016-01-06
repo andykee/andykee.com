@@ -1,6 +1,6 @@
 Title: Power Spectral Density 
 Date: 2015-12-23 10:06
-Modified: 2015-12-23 10:06
+Modified: 2016-01-05 15:49
 Category: eng 
 Tags: matlab, signal processing
 Summary: 
@@ -26,13 +26,12 @@ The simplest way to compute the PSD of time series data in MATLAB is to use `per
     [pxx, f] = periodogram(x,[],length(x),fs);
     semilogx(f, 10*log10(pxx))
 
+In the absence of the Signal Processing Toolbox, it is also possible to compute [PSD estimates using FFT](http://www.mathworks.com/help/signal/ug/psd-estimate-using-fft.html).
 
+That being said, using the periodogram to compute the PSD is one of the worst methods available. Many other methods exist, with my personal favorite being Welch's method. Again given a signam `x` with a sampling frequency `fs`, the PSD is
 
+    :::matlab
+    [pxx, f] = pwelch(x,fs);
+    semilogx(f, 10*log10(pxx))
 
-
-
-http://www.mathworks.com/help/signal/ug/psd-estimate-using-fft.html
-
-On scaling: 
-http://www.mathworks.com/matlabcentral/answers/162846-amplitude-of-signal-after-fft-operation
 

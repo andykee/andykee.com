@@ -16,9 +16,10 @@ The following guide gives coding conventions for what I consider to be great MAT
 
 ## Contents
 * [Code Layout](#code-layout)
-    * [Indentation](#intentation)
+    * [Indentation](#indentation)
     * [Maximum line length](#maximum-line-length)
     * [Blank lines](#blank-lines)
+    * [Whitespace](#whitespace)
 * [Comments](#comments)
     * [Documentation strings](#documentation-strings)
     * [Block comments](#block-comments)
@@ -44,12 +45,58 @@ The following guide gives coding conventions for what I consider to be great MAT
 
 ### <a name="indentation"></a>Indentation
 
+Logic block (if/else, while/end) and try/catch statements should always have their content indented four spaces. 
+
+All functions, including nested functions, should be indented.
+
+Good:
+
+    :::matlab
+    function foo
+        disp('indent all functions');
+
+        if True
+            nestedfunction;
+        end
+
+        function nestedfunction
+            if doSomething
+                disp('we did something');
+            end
+        end
+
+    end
+
+Bad:
+
+    :::matlab
+    function foo
+    disp('classic indenting');
+    
+    if True
+        nestedfunction;
+    end
+
+        function nestedfunction
+        if doSomething
+            disp('we did something');
+        end
+        end
+    end
+
+If you're using the MATLAB Editor, it has smart indenting built in. The smart indenting options are configurable in **Preferences -> Editor/Debugger -> Language**, select **MATLAB** as the language, and see **Function indenting format**.
 
 ### <a name="maximum-line-length"></a>Maximum line length
 
+90%+ of your lines should be limited to 75 characters. "Flat is better than nested."
 
 ### <a name="blank-lines"></a>Blank lines
 
+### <a name="whitespace"></a>Whitespace
+
+Avoid extraneous whitespace in the following situations:
+
+SEE PEP8
 
 ## <a name="comments"></a>Comments
 
@@ -61,19 +108,62 @@ The following guide gives coding conventions for what I consider to be great MAT
 
 ### <a name="inline-comments"></a>Inline comments
 
+An inline comment is a comment on the same line as a statement. Use them sparingly. When necessary, they should be separated by at least two spaces from the end of they statement. They should start with a `%` and a single space.
 
 ## <a name="naming-conventions"></a>Naming Conventions 
 
 ### <a name="variables"></a>Variables
+
 ### <a name="functions"></a>Functions
+
+Function names should be in `lowercase`, with underlines used sparingly to improve readability. Function names should match their filenames.
+
 ### <a name="constants"></a>Constants
+
+Constants should be named in `ALL_CAPS_WITH_UNDERSCORES`.
+
 ### <a name="configuration-and-options"></a>Configuration and options
+
+Script configurations and options are commonly stored in strucutre arrays. Field names should use `UpperCamel` and values should be in `lowercase`:
+
+    :::matlab
+    config = struct( ...
+        'Algorithm', 'levenberg-marquardt', ...
+        'Crop', 'off', ...
+        'DispIter', True, ...
+        'PlotIter', True, ...
+        'DispFinal', False, ...
+        'MaxIter', 30 ...
+    );
+
 ### <a name="classes"></a>Classes
+
+Class names should use `UpperCamel` with capitalized acronyms: `HTTPWriter`, not `HttpWriter`.
+
 
 ## <a name="speed"></a>Speed
 
 ### <a name="vectorize"></a>Vectorize
-### <a name="structures-of-arrays"></a>Structures of arrays
+
+
+
+### <a name="structures-of-arrays"></a>Structures of arrays vs arrays of structures
+
+When working with large amounts of data, structures of arrays are preferable to arrays of structures as they require significantly less memory and come with a speed benefit when reading/writing.
+
+    :::matlab
+    % Structure of arrays
+    data.x = linspace(0,2*pi);
+    data.y = sin(data.x);
+
+    % Array of structures
+    people(1).name = 'doug';
+    people(1).job = 'retired';
+    
+    people(2).name = 'andy';
+    people(2).job = 'engineer';
+
+
 ### <a name="pre-allocation"></a>Pre-allocation
 
 ## <a name="patterns"></a>Patterns

@@ -1,5 +1,6 @@
 Title: MATLAB Framework for WFSC Simulation and Analysis - Part 1: Architecture
 Date: 2015-06-30
+Modified: 2015-06-30
 Category: dev
 Slug: wfsc-framework-architecture
 Status: draft
