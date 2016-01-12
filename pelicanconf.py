@@ -20,6 +20,7 @@ DATE_FORMATS = {'en': '%b %d, %Y'}
 
 PLUGIN_PATHS = ['plugins']
 PLUGINS = ['render_math', 'tipue_search']
+MATH_JAX = {'color':'#555'} # https://github.com/barrysteyn/pelican_plugin-render_math
 
 STATIC_PATHS = ['files','img']
 
