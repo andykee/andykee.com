@@ -51,7 +51,13 @@ In the simplest case, a state estimate is obtained via least squares with
 
 $$\hat{x}(k) = \displaystyle \left(\frac{dl}{dx}\right)^\dagger l(k) = \mathbf{K}l(k)$$
 
-where $\dagger$ denotes the [Moore-Penrose pseudoinverse](https://en.wikipedia.org/wiki/Moore–Penrose_pseudoinverse).
+where $\dagger$ denotes the [Moore-Penrose pseudoinverse](https://en.wikipedia.org/wiki/Moore–Penrose_pseudoinverse). 
+
+If a weighting matrix is required, it is implemented as 
+
+$$\mathbf{K} = \displaystyle \left(\frac{dl}{dx}^T\Lambda\frac{dl}{dx}\right)^{-1}\frac{dl}{dx}^T$$
+
+where $\Lambda$ is a diagonal weighting matrix applied to metrology leg lengths.
 
 ####Weighted Least Squares Estimator
 
@@ -60,4 +66,3 @@ where $\dagger$ denotes the [Moore-Penrose pseudoinverse](https://en.wikipedia.o
 
 
 For a MATLAB implementation of this architecture, see [Part 2]().
-

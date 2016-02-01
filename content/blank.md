@@ -3,7 +3,7 @@ Date:
 Category: 
 Tags:
 Summary: 
-Slug: 
+Slug: blank 
 Authors: AK
 Status: draft
 

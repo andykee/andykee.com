@@ -19,13 +19,13 @@ This one is a necessary evil, but is super important and something I tend to ove
 * Complete my migration to Apple's iCloud services (primarily Contacts and Keychain)
 * Consolidate cloud accounts. I'd like to migrate everything to AWS
 
+#### **February** - Fingernails
+
 ---
 
 
 #### `vim` as my only editor
 I spend all day in various editors (MATLAB, Sublime Text, and vim). It's time to bite the bullet and consolidate.
-
-#### Fingernails
 
 #### Read In Defense of Food by Michael Pollan
 I saw the PBS documentary based on this book at the end of 2015. He presented what seemed like a well thought out approach to healthy eating. I'd like to read more. 
@@ -50,6 +50,8 @@ Self explanatory. They need to come out this year.
 #### Bring lunch to work every day
 
 #### KonMari the apartment
+
+#### Focus on monocle
 
 #### Take a vacation
 Both in real life and from this list. This one is basically a gimmie.
