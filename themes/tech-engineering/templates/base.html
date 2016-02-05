@@ -28,15 +28,6 @@
         <link rel="stylesheet" href="{{ SITEURL }}/theme/css/pygments.css" />
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" /> 
         <link rel="stylesheet" href="{{ SITEURL }}/theme/tipuesearch/tipuesearch.css" />    
-<!--
-        <script type="text/x-mathjax-config">
-            MathJax.Hub.Config({
-                jax: ["input/TeX","output/CommonHTML"],
-                styles: { ".MathJax": {color: "#FF0000"}},
-                "HTML-CSS": {availableFonts: ["TeX"]}
-            });
-        </script>
-        -->
         <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css"/>
         <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick-theme.css"/>
     
@@ -50,7 +41,7 @@
             <h2><a href="{{ SITEURL }}/">{{ SITENAME }} {{ SITESUBTITLE }}</a></h2>
         </div>    
         <div class="header-right">
-            <form id="tipue" action="/search.html" onsubmit="return (this.elements['q'].value.length > 0)">
+            <form id="tipue" action="{{ SITEURL }}/search.html" onsubmit="return (this.elements['q'].value.length > 0)">
                 <input id="tipue_search_input" type="text" name="q" size="12" placeholder="Search">
             </form>
         </div>
@@ -96,7 +87,9 @@
 
 {% include 'analytics.html' %}
 
-<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
+<!--  commented out to remove version conflict between jquery 1 and 2 that was preventing tipue search from returning results
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
 </body>
 </html>
