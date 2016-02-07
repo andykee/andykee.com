@@ -16,7 +16,9 @@ Authors: AK
 
 ### Estimation
 [State Estimation](https://www.cds.caltech.edu/~murray/wiki/images/b/b3/Stateestim.pdf)
+
 [The Kalman Filter - Boyd Lecture](http://stanford.edu/class/ee363/lectures/kf.pdf)
+
 [How a Kalman Filter Works in Pictures](http://www.bzarg.com/p/how-a-kalman-filter-works-in-pictures/)
 
 ### Control
@@ -65,6 +67,7 @@ Authors: AK
 
 ### Indian
 [Chilli and Mint](http://chilliandmint.com)
+
 [Mallika Basu](http://www.mallikabasu.com)
 
 ### Pizza
