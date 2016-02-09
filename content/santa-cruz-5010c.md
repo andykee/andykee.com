@@ -49,3 +49,7 @@ I finished the build on July 11, 2015. Below are original parts that I have eith
 |:---------------|:---------------------------------|:------:|:------|
 | Chainring      | Race Face Narrow-Wide 32t        | NC     | Swapped out in Nov. 2015 |
 
+### Seatpost setup
+**Collar to rails measurement:** 
+**Post max insertion depth:**
+
