@@ -50,6 +50,9 @@ I finished the build on July 11, 2015. Below are original parts that I have eith
 | Chainring      | Race Face Narrow-Wide 32t        | NC     | Swapped out in Nov. 2015 |
 
 ### Seatpost setup
+**Collar to rails - UP:** 235-240 mm
+**Collar to rails - DOWN:** 110-115 mm
+
 **Collar to rails measurement:** 225 mm 
 **Post max insertion depth:** 245 mm
 
