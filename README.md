@@ -12,7 +12,7 @@ That's it!
 * Articles go in `content`, images go in `content/img`, and other files go in `content/files`. 
 * Images and files are included in an article with `![Tooltip]({filename}/img/image.jpg)`
 * `blank.md` is a blank article template. It provides placeholders for commonly used article metadata.
-* Articles can be saved as drafts by adding `Status: draft` to the metadata. These drafts are available at localhost:8000/drafts when running the development server. They are not otherwise published.
+* Articles can be saved as drafts by adding `Status: draft` to the metadata. These drafts are available at `localhost:8000/drafts` when running the development server. They are not otherwise published.
 * Syntax highlighting is supported by including the three semicolons and  language identifier immediately above a block of code. I'm sure there are a ton of language identifiers. I use `bash`, `python`, `matlab`, and `tex`.
 * LaTeX support is provided by MathJax. Wrap inline equations with `$` and full-line equations with `$$`.
 * Slick gallery support coming soon

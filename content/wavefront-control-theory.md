@@ -5,6 +5,7 @@ Tags: wfsc
 Summary: This page presents a generalized wavefront control architecture for a segmented mirror telescope (for example, [Keck](https://en.wikipedia.org/wiki/W._M._Keck_Observatory) or [JWST](https://en.wikipedia.org/wiki/James_Webb_Space_Telescope)) with a [metrology](https://en.wikipedia.org/wiki/Metrology) system to measure segment state. This is the first in a two-part document covering theory. A follow-up document will present a MATLAB implementation of this theory.
 Slug: wavefront-control-theory
 Authors: AK
+Status: draft
 
 This page presents a generalized wavefront control architecture for a segmented mirror telescope (for example, [Keck](https://en.wikipedia.org/wiki/W._M._Keck_Observatory) or [JWST](https://en.wikipedia.org/wiki/James_Webb_Space_Telescope)) with a [metrology](https://en.wikipedia.org/wiki/Metrology) system to measure segment state. We assume the primary mirror segments and secondary mirror are controllable via a set of Rigid-Body Actuators (RBAs). We assume each segment and the SM have 6 RBAs allowing for full 6DOF control. Although it is not considered here, additional figure control may be available via deformable primary mirror segments.  
 

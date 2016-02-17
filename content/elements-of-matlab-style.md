@@ -5,6 +5,7 @@ Tags: matlab
 Summary: The following guide gives coding conventions for what I consider to be great MATLAB style. It includes details on syntax, layout, naming, basic patterns, project organization, and architecture. This style guide will evolve over time as I continue to collect and discover best practices.  
 Slug: elements-of-matlab-style
 Authors: AK
+Status: draft
 
 I used to write a lot of Python code. At my new job, we work mostly in MATLAB. I enjoy using both languages and am probably equally capabile in both (within their own limitations). That being said, both languages have their issues (just google ["python2 vs python3"](https://www.google.com/search?q=python2+vs+python3) or ["MATLAB plotting"](https://www.google.com/search?q=matlab+plotting)).
 
