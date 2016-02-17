@@ -12,7 +12,6 @@ That's it!
 * Articles go in `content`, images go in `content/img`, and other files go in `content/files`. 
 * Images and files are accessed like so:
  
-    :::html
     ![Tooltip]({filename}/img/image.png)
 
 * `blank.md` is a blank article template. It provides placeholders for commonly used article metadata.
@@ -24,16 +23,13 @@ That's it!
 ## Publish
 Publish to AWS S3 bucket defined in `Makefile` by running:
 
-    :::bash
     make s3_upload
 
 A development server can be run by
 
-    :::bash
     make devserver
 
 Stop the development server with
 
-    :::bash
     ./develop_server.sh stop
 
