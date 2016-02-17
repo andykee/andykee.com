@@ -10,10 +10,7 @@ That's it!
 
 ## Write content
 * Articles go in `content`, images go in `content/img`, and other files go in `content/files`. 
-* Images and files are accessed like so:
- 
-    ![Tooltip]({filename}/img/image.png)
-
+* Images and files are included in an article with `![Tooltip]({filename}/img/image.jpg)`
 * `blank.md` is a blank article template. It provides placeholders for commonly used article metadata.
 * Articles can be saved as drafts by adding `Status: draft` to the metadata.
 * Syntax highlighting is supported by including the three semicolons and  language identifier immediately above a block of code. I'm sure there are a ton of language identifiers. I use `bash`, `python`, `matlab`, and `tex`.
