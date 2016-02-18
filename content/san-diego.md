@@ -43,5 +43,3 @@ Outside
 Torrey Pines hiking loop
 Del Mar Dog Beach
 
-
-![AK]({filename}/img/ak.png)

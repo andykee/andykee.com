@@ -98,6 +98,6 @@ By the time we were done we explored a decent chunk of Hokkaido, riding at Nisek
 
 ![Drunk]({filename}/img/photo-essay-japan-2014/japanese-kids.jpg)
 
-Finally, this trip marked the end of an era for me: I retired the only pair of snowboard boots I’ve ever owned. Purchased in 1996, they served me well for 18 seasons. ![AK]({filename}/img/ak.png)
+Finally, this trip marked the end of an era for me: I retired the only pair of snowboard boots I’ve ever owned. Purchased in 1996, they served me well for 18 seasons. 
 
 ![Boots]({filename}/img/photo-essay-japan-2014/boots.jpg)

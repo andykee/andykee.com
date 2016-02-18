@@ -1,3 +1,4 @@
+.highlight, .highlighttable { background: #fdf6e3; color: #657b83 }
 .highlight pre .hll { background-color: #ffffcc }
 .highlight pre, .highlighttable pre { background: #fdf6e3; color: #657b83 }
 .highlight pre .c { color: #93a1a1; font-style: italic } /* Comment */
