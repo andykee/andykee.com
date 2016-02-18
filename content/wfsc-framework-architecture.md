@@ -2,6 +2,7 @@ Title: MATLAB Framework for WFSC Simulation and Analysis - Part 1: Architecture
 Date: 2015-06-30
 Category: dev
 Slug: wfsc-framework-architecture
+Author: AK
 Status: draft
 
 As computer simulations increase in complexity and scope, it becomes increasingly important to manage and control the underlying models, algorithms, scripts, and resulting data. If left unattended, implementation becomes inconsistent and the simulation becomes difficult to maintain and update. This effect is particularly pronounced when a simulation is developed by a team of people.

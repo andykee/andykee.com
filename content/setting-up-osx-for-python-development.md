@@ -19,7 +19,7 @@ The community seems to like managing multiple versions of Python with [pyenv](ht
 
 Instead, I arrived at a solution that uses only virtualenv and virtualenvwrapper to manage different versions of Python installed using [Homebrew](http://brew.sh). It turns out that virtualenv already has the tools necessary to manage multiple versions of Python and I can continue using my familiar workflows thanks to virtualenvwrapper.
 
-## Clean up
+## 1. Clean up
 If not starting with a fresh system, there may be some lingering installations of Python and its related tools. We need to uninstall these. First, remove old versions of Python (and any other Python-related detritus in `/usr/local/Cellar` with
 
     :::bash
@@ -28,7 +28,7 @@ If not starting with a fresh system, there may be some lingering installations o
 We also need to remove `pip`, `virtualenv`, and `virtualenvwrapper` if they were previously installed (either with a Homebrew version of Python or with the version of Python that ships with OSX). Delete all mentions of these packages that appear in `/usr/local/bin` and `/Library/Python/2.7/site-packages`. 
 
 
-## Install Homebrew
+## 2. Install Homebrew
 Installing Python is best accomplished by [Homebrew](http://brew.sh). If it isn't already installed, install it by running
 
     :::bash
@@ -44,7 +44,7 @@ We need to make sure the system looks to the Homebrew-installed packages before 
     :::bash
     export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 
-### Having permissions ussues with OSX El Cap and Homebrew
+### Having permissions ussues with OSX El Cap and Homebrew?
 OSX 10.11/El Capitan introduced some security changes that prevent you from writing to many system directories including `/usr`, `/System`, and `/bin`. Apple left `/usr/local` open, so Homebrew can still be used. Despite this, there still appears to be a permissions issue when trying to install packages with Homebrew. 
 
 If `/usr/local` exists already, resolve this by running
@@ -54,21 +54,21 @@ If `/usr/local` exists already, resolve this by running
 
 If `/usr/local` doesn't exist, the resolution is a bit more involved. See the [Homebrew documentation](https://github.com/Homebrew/homebrew/blob/master/share/doc/homebrew/El_Capitan_and_Homebrew.md) for the fix.
 
-## Install Python
+## 3. Install Python
 Now we can install the various versions of Python we need with Homebrew:
 
     :::bash
     brew install python
     brew install python3
 
-## Install virtualenv/virtualenvwrapper
+## 4. Install virtualenv/virtualenvwrapper
 Next, we'll install virtualenv and virtualenvwrapper:
  
     :::bash
     pip install virtualenv
     pip install virtualenvwrapper
 
-## Configure virtualenvwrapper
+## 5. Configure virtualenvwrapper
 Finally, we need to configure virtualenvwrapper. I store my virtualenvs in `~/.virtualenvs` and my development projects in `~/Dev`. We'll point virtualenvwrapper to these directories in `.bash_profile`:
 
     :::bash
@@ -90,7 +90,7 @@ https://gist.github.com/cjerdonek/7583644
 https://gist.github.com/clneagu/7990272
 
 
-## Configure pip
+## 6. Configure pip
 Usually we want to restrict the usage of pip to when we are inside a virtual environment. To do this, add the following line to `.bash_profile`:
 
     :::bash

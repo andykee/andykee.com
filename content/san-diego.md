@@ -4,7 +4,7 @@ Category: travel
 Tags:
 Summary: ![72 Hours in San Diego]({filename}/img/72-hours-in-san-diego/summary.jpg)
 Slug: 72-hours-in-san-diego
-Authors: Andy Kee
+Authors: AK
 Status: draft
 
 

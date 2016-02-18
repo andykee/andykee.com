@@ -3,7 +3,7 @@ Date:
 Category: 
 Tags:
 Summary: 
-Slug: 
+Slug: rms-vs-rss 
 Authors: AK
 Status: draft
 

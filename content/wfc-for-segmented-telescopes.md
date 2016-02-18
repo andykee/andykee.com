@@ -2,6 +2,7 @@ Title: Optimized Wavefront Control for Segmented Mirror Telescopes
 Date: 2015-06-24
 Category: control
 Slug: wfc-for-segmented-telescopes
+Author: AK
 Status: draft
 
 Consider a generalized segmented mirror telescope consisting of an n-segment primary mirror (PM) and a secondary mirror (SM). Each optical element may be actuated in six degrees of freedom (DOF) expressed in each mirror segment's coordinate frame: $x$, $y$, and $z$ translations and $\theta_x$, $\theta_y$, and $\theta_z$ rotations  (with $\theta_x$ and $\theta_y$ representing segment tip and tilt and $z$ representing segment piston).

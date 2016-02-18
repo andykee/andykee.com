@@ -30,6 +30,7 @@ STATIC_PATHS = ['files','img','pages']
 THEME = 'themes/octavore'
 PYGMENTS_THEME = 'solarizeddark'
 PLUGINS = ['render_math'];
+DIRECT_TEMPLATES = ['index']
 
 FAVICON_URL = 'http://www.andykee.com/theme/images/favicon.ico'
 GOOGLE_ANALYTICS = 'UA-2815076-3'

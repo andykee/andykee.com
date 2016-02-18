@@ -4,7 +4,7 @@ Category: outdoors
 Tags:
 Summary: Build log, specs, and a wishlist for my 2015 Santa Cruz 5010c.
 Slug: santa-cruz-5010c 
-Authors: Andy Kee
+Authors: AK
 
 ![2015 Santa Cruz 5010c]({filename}/img/santa-cruz-5010c.jpg)
 

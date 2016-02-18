@@ -3,8 +3,8 @@ Date: 2015-01-19
 Category: travel
 Tags:
 Summary: ![Japan 2014]({filename}/img/photo-essay-japan-2014/summary.jpg)
-Slug: 20150119-japan-2014
-Authors: Andy Kee
+Slug: japan-2014
+Authors: AK
 
 Sometime during the winter of 2012/13, I committed to going on an international ski trip. The 2011/12 and 2012/13 winters had been mild in the Sierra (at when least compared with the previous few years), making the promise of loads of fresh snow impossible to resist. The original plan was to do the [Haute Route](http://en.wikipedia.org/wiki/Haute_Route) through the Alps, but we quickly learned it entailed too much touring, not enough descending, and is not terribly splitboard friendly. A little more digging led us to Hokkaido - Japan's northern-most island. After departing Siberia on its eastward journey around the globe, the jet stream hits Hokkaido and blankets it in more white powder than Miami in the 80's.
 

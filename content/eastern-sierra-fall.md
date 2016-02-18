@@ -4,7 +4,7 @@ Category: outdoors
 Tags:
 Summary: ![Upper Owens]({filename}/img/20150911_2a.jpg)
 Slug: 20150928-eastern-sierra-fall
-Authors: Andy Kee
+Authors: AK
 
 <div class="slick-gallery">
     <img src="{filename}/img/20150911_1.jpg">

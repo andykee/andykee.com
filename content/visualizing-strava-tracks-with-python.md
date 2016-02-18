@@ -3,8 +3,8 @@ Date: 2015-01-22
 Category: dev
 Tags:
 Summary: ![Visualizing Strava Tracks with Python]({filename}/img/visualizing-strava-tracks-with-python/summary.png)
-Slug: 20150122-visualizing-strava-tracks-with-python
-Authors: Andy Kee
+Slug: visualizing-strava-tracks-with-python
+Authors: AK
 
 
 I love using [Strava](http://www.strava.com) to track of my biking and snowboarding. While I rarely compete with the hoards of people who are much faster than I am (or are using [DigitalEPO](http://www.digitalepo.com/)), I do like to compare my times against my own PR's.
@@ -110,5 +110,3 @@ I made a few more for two other trail systems I commonly ride. Next up: visualiz
 ![2014 Daley Ranch Rides]({filename}/img/visualizing-strava-tracks-with-python/daley.png)
 
 ![2014 Laguna Mountain Rides]({filename}/img/visualizing-strava-tracks-with-python/laguna.png)
-
-![AK]({filename}/img/ak.png)
