@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Andy Kee'
-SITENAME = 'AK'
+SITENAME = 'andykee'
 #SITEURL = 'http://andykee.com'
 
 PATH = 'content'
@@ -16,19 +16,21 @@ TYPOGRIFY = False
 
 DATE_FORMATS = {'en': '%b %d, %Y'}
 
-#ARTICLE_ORDER_BY = 'reversed-modified'
-
 PLUGIN_PATHS = ['plugins']
-PLUGINS = ['render_math', 'tipue_search']
 MATH_JAX = {'color':'#555'} # https://github.com/barrysteyn/pelican_plugin-render_math
 
-STATIC_PATHS = ['files','img']
-
-DIRECT_TEMPLATES = ['index','tags','categories','search']
-
+STATIC_PATHS = ['files','img','pages']
 
 # Theme settings
-THEME = 'themes/tech-engineering'
+#THEME = 'themes/tech-engineering'
+#PLUGINS = ['render_math', 'tipue_search']
+#DIRECT_TEMPLATES = ['index','tags','categories','search']
+
+
+THEME = 'themes/octavore'
+PYGMENTS_THEME = 'solarizeddark'
+PLUGINS = ['render_math'];
+
 FAVICON_URL = 'http://www.andykee.com/theme/images/favicon.ico'
 GOOGLE_ANALYTICS = 'UA-2815076-3'
 

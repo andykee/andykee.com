@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="x-home">
+    <div class="home-header">
+        <h1>andykee</h1>
+    </div>
+
+    <div class="home-toc">
+        {% for year, articles in dates|groupby( 'date.year' )|reverse %}
+            <div class="home-toc-line-year">{{ year }}</div>
+            {% for article in articles %}
+                <div class="home-toc-line">
+                    <div class="home-toc-date">{{ article.date|strftime('%b %-d') }}</div>
+                    <div class="home-toc-title"><a href="{{ article.url }}">{{ article.title }}</a></div>
+                </div>
+            {% endfor %}
+        {% endfor %}
+    </div>
+
+</div>
+
+
+
+
+
+{% endblock content %}

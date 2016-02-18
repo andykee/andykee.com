@@ -1,0 +1,23 @@
+{% extends "base.html"%}
+
+{% block content %}
+<div class="header">
+    <div class="header-inner">
+        <div class="header-text">
+            <a href="{{ SITEURL }}">{{ SITENAME }}</a>
+        </div>
+        <div class="header-nav">
+            <a href="{{ SITEURL }}">home</a>
+            <a href="{{ FILENAME }}/about.html">about</a>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="post">
+        <h2 class="post-title">{{ article.title }}</h2>
+        <div class="post-body">{{ article.content }}</div>
+    </div>
+</div>
+
+{% endblock %}
