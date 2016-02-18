@@ -1,9 +1,9 @@
-Title: Zernike Removal by Projection 
+Title: Zernike Mode Removal 
 Date: 2016-02-17
 Category: 
 Tags:
 Summary: 
-Slug: zernike-removal-projection
+Slug: zernike-mode-removal
 Authors: AK
 
 The [Zernike polynomials](https://en.wikipedia.org/wiki/Zernike_polynomials) represent an orthogonal basis defined over the unit circle and an arbitrary wavefront over a circular pupil can be described as a linear combination of Zernike polynomials:

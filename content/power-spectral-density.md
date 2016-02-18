@@ -18,7 +18,7 @@ The PSD has units of energy per frequency and thus can be used to compute the ne
 
 $$P_{net} = 2\int_0^\infty S(f)df$$
 
-# Computing the PSD in MATLAB
+### Computing the PSD in MATLAB
 The simplest way to compute the PSD of time series data in MATLAB is to use `periodogram` in the Signal Processing Toolbox. Given a signal `x` with a sampling frequency `fs`, the PSD is
 
     :::matlab
