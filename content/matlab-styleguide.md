@@ -22,7 +22,6 @@ Authors: AK
     * [Structures and Cell Arrays](#structures-cell-arrays)
     * [Functions](#functions)
     * [Classes](#classes)
-    * [Data Files and Directories](#data-files-directories)
 4. [Programming Recommendations](#programming-recommendations)
 
 
@@ -50,17 +49,66 @@ Authors: AK
 
 * Immediately inside parentheses, brackets, or braces.
 
+    Yes:
+
         :::matlab
-        Yes: spam(ham[1], {eggs: 2})
-        No:  spam( ham[ 1 ], { eggs: 2 } )
+        pow(arg1, arg2)
+ 
+    No:  
+
+        :::matlab
+        pow( arg1, arg2 )
 
 * Immediately before a comma or semicolon:
 
+    Yes:
+        
+        :::matlab
+        val = pow(arg1, arg2);
+        
+    No:
+
+        :::matlab
+        val = pow(arg1 , arg2) ;
+
 * On either side of a colon:
+
+    Yes:
+        
+        :::matlab
+        x = y[1:4, :];
+        
+    No:
+        
+        :::matlab
+        x = y[1 : 4, : ];
 
 * Immediately before the open parenthesis of a function definition or call:
 
+    Yes:
+
+        :::matlab
+        function pow(arg1, arg2)
+        
+        pow(x, y)
+        
+    No:  
+        
+        :::matlab
+        function pow (arg1, arg2)
+        pow (x, y)
+
 * Immediately before the open bracket that starts an indexing or slicing:
+
+    Yes:
+
+        :::matlab
+        x[1:5] = y[6:10];
+    
+    No:  
+
+        :::matlab
+        x [1:5] = y [6:10];
 
 * More than one space around an assignment to align it with another:
 
@@ -85,79 +133,117 @@ Always surround binary operators with a single space on either side: assignment 
 
 Compound commands (multiple commands on the same line) are generally discouraged. While sometimes it's desirable to put an if/for/while with a small body on the same line, never do this for a multi-clause commands.
 
+Yes:
+
+    :::matlab
+    if x > 0
+        do_the_thing();
+    end
+
 Rather not:
 
     :::matlab
-    pep8 example
+    if x > 0, do_the_thing(); end
 
 Definitely not:
 
     :::matlab
-    pep8 example
+    if x > 0, do the thing(); else, do_the_other_thing(); end
 
 Separate functions and major code blocks with two blank lines. Use a single blank line to indicate logical sections within functions and major code blocks
 
 
 ## <a name="comments"></a>2. Comments
 
-All comments should be formatted 
+All comments should be formatted using MATLAB markup. This makes publication of documentation using `publish` a breeze. A basic syntax guide follows: 
+
+    :::matlab
+    %% SECTION TITLE
+    % DESCRIPTIVE TEXT
+    % 
+    %%% SECTION TITLE WITHOUT SECTION BREAK
+    %
+    % _ITALIC TEXT_
+    %
+    % *BOLD TEXT*
+    %
+    % |MONOSPACED TEXT|
+    %
+    % BULLETED LIST:
+    % * ITEM 1
+    % * ITEM 2
+    %
+    % NUMBERED LIST:
+    % # ITEM 1
+    % # ITEM 2
+    %
+    % PREPEND SOURCE CODE WITH THREE SPACES:
+    %   for i = 1:10
+    %       disp(x)
+    %   end
+    %
+    % INCLUDE EXTERNAL FILE CONTENT:
+    % <include>filename.m</include>
+    %
+    % INCLUDE IMAGES:
+    % <<filename.png>>
+    %
+    % HYPERLINKS:
+    % <http://www.jpl.nasa.gov>
+    % <matlab:FUNCTION DISPLAYED_TEXT>
+    %
+    % INLINE LATEX EQUATIONS:
+    % $e^{\pi i} = -1$
+    %
+    % BLOCK LATEX EQUATIONS:
+    % $$e^{\pi i} = -1$$
+    %
+    % LATEX MARKUP:
+    % <latex>
+    % ...
+    % </latex>
+
 
 ### <a name="header"></a>Header
 
-Write header comments for all functions and classes. Header comments should use the following format:
- 
-
-
-
-
+Write header comments for all functions and classes. Header comments should incude a sample function call, function description, inputs, and outputs. Notes, references, and examples are optional. 
 
 Header comments should be located above the `function` or `class` statement. 
 
 Full header comments are not necessary for scripts, but you should begin the script with a comment listing author, date, and a short description of the script.
 
-
-
-
-12. Format header comments for easy publishing as documentation
-short syntax guide for matlab publishing here - google MATLAB publishing markup
-
-13. Write documentation headers for all functions and classes
-Sample function call, description, inputs, and outputs are required (as defined), notes, references, and examples are optional.
-
-        :::matlab
-        % function name
-        % 
-        % Function description
-        %
-        % Inputs
-        % ------
-        % input1 : description 
-        % inputn : description 
-        %
-        % Outputs
-        % -------
-        % output1 : description  
-        % outputn : description
-        % 
-        % Notes
-        % -----
-        % This is an example of a note. It may cite a reference [1] as needed.
-        %
-        % References
-        % ----------
-        % [1] Reference 1
-        % [2] Reference 2
-        % 
-        % Examples
-        % --------
-        % >> blah
-        %
+    :::matlab
+    % function name
+    % 
+    % Function description
+    %
+    % Inputs
+    % ------
+    % input1 : description 
+    % inputn : description 
+    %
+    % Outputs
+    % -------
+    % output1 : description  
+    % outputn : description
+    % 
+    % Notes
+    % -----
+    % This is an example of a note. It may cite a reference [1] as needed.
+    %
+    % References
+    % ----------
+    % [1] Reference 1
+    % [2] Reference 2
+    % 
+    % Examples
+    % --------
+    % >> blah
+    %
         
-        % Author: 
-        % Date: 
-        % Version: 
-
-14. Syntax discussion (see elements of matlab style 118)
+    % Author: 
+    % Date: 
+    % Version: 
 
 
 ### <a name="block-comments"></a>Block Comments
@@ -175,52 +261,73 @@ Inline comments describe short implementation details and should be used sparing
 ## <a name="naming-conventions"></a>3. Naming Conventions
 
 ### <a name="variables"></a>Variables
-Use lowercase for simple variable names and lowerCamelCase for compound variable names. 
+Use `lowercase` for simple variable names and `lowerCamelCase` for compound variable names. 
+
+Prefix variable names that store a count of things with "n" or "m":
+
+    :::matlab
+    [nRows,nCols] = size(array);
+
+Prefix variable names that are incremented in a loop with "i" (or "j", "k", ...) to make it clear what the loop is indexing through:
+
+    :::matlab
+    for iRow = 1:nRows
+        ...
+
+Use "is" as a prefix for variables representing logical states:
+
+    :::matlab
+    isPositive = data > 0;
 
 
-### Constants
-Use all uppercase for constant names. If the constant has a compound name, use an underscore as a separator.
+### <a name="constants"></a>Constants
+Use `UPPERCASE` for constant names. If the constant has a compound name, use an underscore as a separator.
 
 
-### Structures and Cell Arrays
-Use UpperCamelCase for structure names. Structure fields should follow the naming convention for variables.
+### <a name="structures-cell-arrays"></a>Structures and Cell Arrays
+Use `UpperCamelCase` for structure names. Structure fields should follow the naming convention for variables.
 
 Cell arrays should follow the convention for variables.
 
 
-### Functions
-Functions should have short, all lowercase names. Underlines may be used sparingly to improve readability. They should be named for what they do and function names should match their filenames.
+### <a name="functions"></a>Functions
+Functions should have short, all `lowercase` names. They should be named for what they do and function names should match their filenames. Underscores may be used sparingly to improve readability. 
 
 
-### Classes
-Use nouns when naming classes. Use UpperCamelCase for class and object names. 
+### <a name="classes"></a>Classes
+Use `UpperCamelCase` for class and object names. Class names should be nouns. 
 
 Class properties should be named like structure fields or variables. Class methods should be named like functions.
 
 
-### Data Files and Directories
+## <a name="programming-recommendations"></a>4. Programming Recommendations
 
+* Minimize the use of global variables. Their use makes the code more difficult to read, understand, and debug. 
 
-## 4. Programming Recommendations
+* Avoid the use of `eval`. Statements that use `eval` tend to be harder to read and write, more difficult to debug, and slower to execute than alternatives. Consider using structures or cell arrays coupled with dynamic field referencing or cell indexing as an alternative. 
 
-Use block comments to temporarily bypass a block of code
-    not `if 0`
+* Avoid the conditional expression `if 0`. Use block comments to temporarily bypass a block of code instead. Never release software containing `if 0`.
 
+* Use an options structure when a function requires many input parameters. A structure is easier to parse than a long list of parameter-value pairs. 
 
-### <a name="structures-of-arrays"></a>Structures of arrays vs arrays of structures
+* When working with large amounts of data, structures of arrays are preferable to arrays of structures as they require significantly less memory and come with a speed benefit when reading/writing.
 
-When working with large amounts of data, structures of arrays are preferable to arrays of structures as they require significantly less memory and come with a speed benefit when reading/writing.
+        :::matlab
+        % Structure of arrays
+        Data.x = linspace(0,2*pi);
+        Data.y = sin(Data.x);
 
-    :::matlab
-    % Structure of arrays
-    data.x = linspace(0,2*pi);
-    data.y = sin(data.x);
+        % Array of structures
+        Img(1).nRows = 256;
+        Img(1).nCols = 256;
+        Img(2).nRows = 1000;
+        Img(2).nCols = 1000;
+        
+* Profile the code. It helps identify bottlenecks in execution speed and identifies opportunities for optimization.
 
-    % Array of structures
-    people(1).name = 'doug';
-    people(1).job = 'retired';
-    
-    people(2).name = 'andy';
-    people(2).job = 'engineer';
+* Pay attention to messages from the Code Analyzer. Implemnent the suggested changes when they make sense and don't significantly impact redability.
 
+* Use logical indexing instead of `find`. Logical indexing is almost always faster.
+
+* Provide some form of input validity checking for functions. Checking the type and range of numerical inputs and the validity of character strings greatly improves the reliability of a function. The `inputParser` function coupled with `assert()` is very helpful for input validity checking.
 
