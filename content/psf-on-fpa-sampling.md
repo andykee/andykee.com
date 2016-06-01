@@ -1,9 +1,9 @@
-Title: Simulating Correctly Sampled PSFs on an FPA
+Title: Verifying simulated PSFs represent proper detector sampling
 Date: 2016-02-05
 Category: wfsc
 Tags: matlab, optics
 Summary: 
-Slug: simulating-psfs-on-fpa
+Slug: psf-on-fpa-sampling
 Authors: AK
 
 There's been a lot of discussion about this at work lately. We have a fairly robust MATLAB function to create simulated PSFs for an optical system given a geometric pupil, an amplitude map of the pupil, an OPD map, filter bandpass, and desired sampling of the resulting PSF. While it's fairly straightforward to generate a PSF for an arbitrary system and OPD, the nagging worry that the simulated PSF isn't a correct representation of what the optical system we're simulating would actually produce always remains. The issue always comes back to how to correctly set up the sampling. While I won't go in to the specifics of how to do that using our MATLAB function here, I will present a simple sanity check based on first principles that allows for easy validation that simulated PSFs are in fact being represented in native detector sampling.
@@ -78,4 +78,17 @@ A simple bit of MATLAB code calculates the FWHM and counts the number of pixels 
     npix_meas = max([nr nc]);
     
 From the figure above, we confirm the number of pixels under the FWHM of the simulated PSF is 22, so our PSF is being correctly represented by our simulation.
+
+## (Update) A simple check using Q
+Q represents the ratio between the resolving power of an optical system and the sampling ability of a detector.
+
+$$\begin{equation}Q = \displaystyle \frac{\lambda F}{d}\end{equation}$$
+
+A system with $Q = 2$ is considered to be "well sampled". We see from above that the number of pixels under the FWHM is 
+
+$$\begin{equation}\mbox{N}_{\mbox{px}} = \displaystyle \frac{1.028\lambda F}{d}\end{equation}$$
+
+which is nearly equivalent to $Q$. For a quick back of the envelope check, it is usually sufficient to use 
+
+$$\begin{equation}\mbox{N}_{\mbox{px}} = Q\end{equation}$$
 
