@@ -27,10 +27,13 @@ The simplest way to compute the PSD of time series data in MATLAB is to use `per
 
 In the absence of the Signal Processing Toolbox, it is also possible to compute [PSD estimates using FFT](http://www.mathworks.com/help/signal/ug/psd-estimate-using-fft.html).
 
-That being said, using the periodogram to compute the PSD is one of the worst methods available. Many other methods exist, with my personal favorite being Welch's method. Again given a signam `x` with a sampling frequency `fs`, the PSD is
+That being said, using the periodogram to compute the PSD is one of the worst methods available. Many other methods exist, with my personal favorite being Welch's method. Again given a signal `x` with a sampling frequency `fs`, the PSD is
 
     :::matlab
-    [pxx, f] = pwelch(x,fs);
+    window = 512;
+    fs = 1000;
+    [pxx,f] = pwelch(x,window,[],[],fs);
     semilogx(f, 10*log10(pxx))
+    % loglog(f,pxx)
 
 
