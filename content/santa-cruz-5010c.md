@@ -24,10 +24,10 @@ Authors: AK
 | Frame          | 2015 Santa Cruz 5010c CC (M)     | |
 | Fork           | 2016 Fox 34 Float 27.5 140       | |
 | Wheels         | WTB i23, DT Swiss 180 Hubs       | Purchased lightly used off Pinkbike |
-| F. Tire        | Maxxis High Roller II 2.3        | |
+| F. Tire        | Maxxis Minion DHR II 2.4         | |
 | R. Tire        | Maxxis Ardent 2.25               | |
-| Bars           | Easton Haven 750 Low Rise Carbon | |
-| Stem           | Race Face Turbing 70mm           | |
+| Bars           | Easton Haven 750 Low Rise Carbon | 35mm diameter |
+| Stem           | Race Face Turbine 70mm           | |
 | Grips          | Santa Cruz Palmdale              | |
 | Headset        | Chris King InSet 3 Tapered       | |
 | Crank          | Shimano XT                       | 170 mm crank arm |
@@ -58,6 +58,7 @@ I finished the build on July 11, 2015. Below are original parts that I have eith
 | Component      | Item                             | Weight | Notes |
 |:---------------|:---------------------------------|:------:|:------|
 | Chainring      | Race Face Narrow-Wide 32t        | NC     | Swapped out in Nov. 2015 |
+| F. Tire        | Maxxis High Roller II 2.3        |        | Changed in July 2016 | 
 
 ### <a name="fork-tune"></a> Fork Tune
 Sag: xx mm
