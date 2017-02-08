@@ -22,7 +22,9 @@ Publish to AWS S3 bucket defined in `Makefile` by running:
 
     make s3_upload
 
-Note that the AWS CLI needs to be configured before this will work. See more [here](http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html).
+Note that the AWS CLI needs to be configured before this will work. This is easily done by running `aws configure` after installing all requirements. 
+
+See more [here](http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html).
 
 A development server can be run by
 
