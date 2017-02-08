@@ -1,7 +1,7 @@
 Title: Using Sphinx to Create MATLAB Documentation
 Date: 04-23-2016
 Category: 
-Tags:
+Tags: matlab
 Summary: 
 Slug: sphinx-matlab
 Authors: AK

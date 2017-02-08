@@ -5,6 +5,7 @@ Tags: matlab, signal processing
 Summary: 
 Slug: power-spectral-density 
 Authors: AK
+Status: draft
 
 Power spectral density (PSD) shows the power of a time series signal in each frequency band. Think of looking at a PSD plot like looking at time series data plotted as a function of frequency, rather than time. In practice, the PSD is computed as the absolute magnitude of the Fourier transform squared. For example, given a signal $x(n)$ and its DFT $X(f)$, then the absolute magnitude if the DFT is $|X(f)|$ and the PSD is $|X(f)|^2$.
 

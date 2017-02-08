@@ -1,7 +1,7 @@
 Title: Visualizing Strava Tracks with Python
 Date: 2015-01-22
-Category: dev
-Tags:
+Category: 
+Tags: python, bike
 Summary: ![Visualizing Strava Tracks with Python]({filename}/img/visualizing-strava-tracks-with-python/summary.png)
 Slug: visualizing-strava-tracks-with-python
 Authors: AK

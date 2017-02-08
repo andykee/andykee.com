@@ -1,11 +1,11 @@
 Title: The Forking Git Workflow 
 Date: 2016-05-10 
 Category: 
-Tags:
+Tags: git
 Summary: 
 Slug: forking-git-workflow
 Authors: AK
-
+Status: draft
 
 The forking workflow is the way that most open source projects operate. It provides a workflow that allows for developers to contribute to their own server-side repos, and specify which features should be included in the official project repo (via a pull request). 
 
