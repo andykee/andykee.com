@@ -301,3 +301,23 @@ pre {
         margin-left: 0;
         padding-left: 30px;
         font-size: 0.9em; }
+
+
+
+footer {
+    max-width: 33.33333em;
+    margin: 75px auto 0px auto; 
+    padding: 10px 10px 10px 0px;
+    border-top: 1px solid #e9ebeb;
+    text-align: center;
+}
+
+.footer_elem {
+    font-size: 0.8em;
+    padding-right: 25px;
+    display: inline-block;
+}
+
+.footer_elem a {
+    color: #002004;
+}
