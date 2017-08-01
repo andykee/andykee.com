@@ -108,7 +108,7 @@ pre {
 /* -- index ---------------------------------------------------------------- */
 .x-home {
     color: #263537;
-    text-transform: lowercase; }
+    /*text-transform: lowercase; */}
 
     .x-home .home-header {
         max-width: 33.33333em;
@@ -123,8 +123,9 @@ pre {
             .x-home .home-header h1 {
                 font-family: Montserrat, "helvetica neue", sans-serif;
                 font-size: 42px;
-                font-weight: 700;
+                font-weight: 500;
                 text-align: center;
+                text-transform: uppercase;
                 margin: 60px 0 40px;
                 color: #515d5f; }
 
@@ -178,8 +179,8 @@ pre {
             .x-home .home-toc .home-toc-line .home-toc-date {
                 float: left;
                 display: block;
-                margin-right: 2.35765%;
-                width: 14.70196%; }
+                margin-right: 2.5%;
+                width: 20%; }
             
             .x-home .home-toc .home-toc-line .home-toc-date:last-child {
                 margin-right: 0; }
@@ -199,8 +200,8 @@ pre {
                 margin-right: 0;
                 float: left;
                 display: block;
-                margin-right: 2.35765%;
-                width: 82.94039%; }
+                margin-right: 2.5%;
+                width: 75%; }
             
             .x-home .home-toc .home-toc-line .home-toc-title:last-child {
                 margin-right: 0; }
