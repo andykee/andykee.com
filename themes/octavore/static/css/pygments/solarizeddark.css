@@ -14,11 +14,11 @@
 .highlight pre .cp { color: #586e75; font-style: italic } /* Comment.Preproc */
 .highlight pre .c1 { color: #586e75; font-style: italic } /* Comment.Single */
 .highlight pre .cs { color: #586e75; font-style: italic } /* Comment.Special */
-.highlight pre .gd { color: #839496 } /* Generic.Deleted */
+.highlight pre .gd { color: #dc322f } /* Generic.Deleted */
 .highlight pre .ge { color: #839496 } /* Generic.Emph */
 .highlight pre .gr { color: #839496 } /* Generic.Error */
 .highlight pre .gh { color: #839496 } /* Generic.Heading */
-.highlight pre .gi { color: #839496 } /* Generic.Inserted */
+.highlight pre .gi { color: #859900 } /* Generic.Inserted */
 .highlight pre .go { color: #839496 } /* Generic.Output */
 .highlight pre .gp { color: #839496 } /* Generic.Prompt */
 .highlight pre .gs { color: #839496 } /* Generic.Strong */

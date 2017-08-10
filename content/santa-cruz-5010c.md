@@ -8,57 +8,94 @@ Authors: AK
 
 ![2015 Santa Cruz 5010c]({filename}/img/santa-cruz-5010c.jpg)
 
-## Contents
-* [Current Build](#current-build)
-    * [Pending Upgrades](#pending-upgrades)
-    * [Deltas from Original Build](#deltas)
-    * [Fork Tune](#fork-tune)
-    * [Shock Tune](#shock-tune)
-* [Specs](#specs)
-* [Frame Geomerty](#frame-geometry)
+
+    :::diff
+    # frame ---------------------------------------------------
+    Santa Cruz 5010 Carbon CC (2015, medium)
+
+    # fork ----------------------------------------------------
+    Fox 34 Float 27.5 140 (2016)
+
+    # wheels --------------------------------------------------
+    WTB i23 650b
+
+    # hubs ----------------------------------------------------
+    DT Swiss 180
+
+    # front tire ----------------------------------------------
+    - Maxxis High Roller II 2.3 
+    + Maxxis Minion DHR II 2.4 (July 2016)
+
+    # rear tire -----------------------------------------------
+    - Maxxis Ardent 2.25
+    - Maxxis Ardent 2.25 (July 2016)
+    + Maxxis Ardent 2.25 (April 2017)
+
+    # seat ----------------------------------------------------
+    - WTB Volt Pro 135mm
+    + Fabric Scoop Radius (August 2016)
+
+    # seatpost ------------------------------------------------
+    - Easton EA70 Offset, 30.9 x 350mm
+    + 9point8 Fall Line 30.9 x 375mm (125mm drop) (April 2016)
+
+    # bars ----------------------------------------------------
+    Easton Haven 350 Low Rise Carbon (35mm diam)
+
+    # grips ---------------------------------------------------
+    - Santa Cruz Palmdale - Black
+    + Santa Cruze Palmdale - Teal (July 2016)
+
+    # headset -------------------------------------------------
+    Chris King InSet3 Tapered
+
+    # stem ----------------------------------------------------
+    - Race Face Turbine 70mm
+    + Easton Haven 50mm (July 2016)
+
+    # front brake ---------------------------------------------
+    Shimano XT M785
+
+    # rear brake ----------------------------------------------
+    Shimano XT M785
+
+    # front rotor  --------------------------------------------
+    Shimano XT Ice-Tech 180mm
+
+    # rear rotor ----------------------------------------------
+    Shimano XT Ice-Tech 160mm
+
+    # bottom bracket ------------------------------------------
+    Chris King Threadfit 24mm
+
+    # cranks --------------------------------------------------
+    Shimano XT M785 Hollowtech 170mm
+
+    # pedals --------------------------------------------------
+    Time ATAC Carbon
+
+    # rear derailleur -----------------------------------------
+    Shimano XTR M986 10 Speed
+
+    # rear shifter --------------------------------------------
+    Shimano XTR M980 10 Speed
+
+    # chain ---------------------------------------------------
+    KMC X10SL Gold
+
+    # chainring -----------------------------------------------
+    - Race Face Narrow-Wide 32t
+    - Race Face Narrow-Wide 30t (November 2015)
+    + Wolf Tooth 104 BCD 30t (June 2017)
+
+    # cassette ------------------------------------------------
+    Shimano XT M771 10 Speed
+
+    # chainguide ----------------------------------------------
+    + Wolf Tooth GnarWolf ISCG 05 Mount (July 2017)
 
 
-## <a name="current-build"></a>Current Build
-| Component      | Item                             | Notes |
-|:---------------|:---------------------------------|:------|
-| Frame          | 2015 Santa Cruz 5010c CC (M)     | |
-| Fork           | 2016 Fox 34 Float 27.5 140       | |
-| Wheels         | WTB i23, DT Swiss 180 Hubs       | Purchased lightly used off Pinkbike |
-| F. Tire        | Maxxis Minion DHR II 2.4         | |
-| R. Tire        | Maxxis Ardent 2.25               | |
-| Bars           | Easton Haven 750 Low Rise Carbon | 35mm diameter |
-| Stem           | Race Face Turbine 70mm           | |
-| Grips          | Santa Cruz Palmdale              | |
-| Headset        | Chris King InSet 3 Tapered       | |
-| Crank          | Shimano XT                       | 170 mm crank arm |
-| Chainring      | Race Face Narrow-Wide 30t        | |
-| R. Deruailler  | Shimano XTR                      | |
-| R. Shifter     | Shimano XTR                      | |
-| Cassette       | Shimano XT 10 speed              | |
-| Chain          | KMC X10SL Gold                   | |
-| Pedals         | Time ATAC Carbon                 | |
-| Bottom Bracket | Chris King Threadfit 24mm        | Also needed CK BB Conversion Kit #12 |
-| Front Brakes   | Shimano XT                       | |
-| Rear Brakes    | Shimano XT                       | |
-| Front Rotors   | Shimano XT Ice-Tech 180mm        | |
-| Rear Rotors    | Shimano XT Ice-Tech 160mm        | |
-| Saddle         | WTB Volt Pro 135mm               | |
-| Seatpost       | Easton EA70 Offset, 30.9x350mm   | |
 
-Current weight: **26.8 lbs**
-
-### <a name="pending-upgrades"></a> Pending Upgrades
-* [9point8 Fall Line Dropper](http://9point8.ca/index.php/products/sesatposts/product/69-fall-line-dropper-post)
-* [Maxxis rear tire]()
-* [Better seat?]()
-
-### <a name="deltas"></a> Deltas from Original Build
-I finished the build on July 11, 2015. Below are original parts that I have either changed or upgraded since then:
-
-| Component      | Item                             | Weight | Notes |
-|:---------------|:---------------------------------|:------:|:------|
-| Chainring      | Race Face Narrow-Wide 32t        | NC     | Swapped out in Nov. 2015 |
-| F. Tire        | Maxxis High Roller II 2.3        |        | Changed in July 2016 | 
 
 ### <a name="fork-tune"></a> Fork Tune
 Sag: xx mm
