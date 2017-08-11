@@ -124,8 +124,9 @@ pre {
                 font-family: Montserrat, "helvetica neue", sans-serif;
                 font-size: 42px;
                 font-weight: 500;
-                text-align: center;
+                text-align: left;
                 text-transform: uppercase;
+                padding-left: 20px;
                 margin: 60px 0 40px;
                 color: #515d5f; }
 
@@ -268,7 +269,7 @@ pre {
 
     .post .post-title {
         color: #515d5f;
-        font-size: 24px; }
+        font-size: 20px; }
     
     .post .post-body {
         margin-top: 10px; }

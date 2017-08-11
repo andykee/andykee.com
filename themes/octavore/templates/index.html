@@ -9,8 +9,7 @@
     <div class="home-toc">
         {# {% for year, articles in dates|groupby('date.year')|reverse %}
         <div class="home-toc-line-year">{{ year }}</div> #}
-        
-            <div class="home-toc-line-year"></div>
+        <div class="home-toc-line-year"><a href="categories.html">by category</a></div>
             {% for article in articles %}
                 <div class="home-toc-line">
                     <div class="home-toc-date">{{ article.date|strftime('%b %-d %Y') }}</div> 
