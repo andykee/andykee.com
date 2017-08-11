@@ -1,10 +1,6 @@
 Title: Verifying simulated PSFs represent proper detector sampling
 Date: 2016-02-05
-Category: wfsc
 Tags: matlab, optics
-Summary: 
-Slug: psf-on-fpa-sampling
-Authors: AK
 Status: draft
 
 There's been a lot of discussion about this at work lately. We have a fairly robust MATLAB function to create simulated PSFs for an optical system given a geometric pupil, an amplitude map of the pupil, an OPD map, filter bandpass, and desired sampling of the resulting PSF. While it's fairly straightforward to generate a PSF for an arbitrary system and OPD, the nagging worry that the simulated PSF isn't a correct representation of what the optical system we're simulating would actually produce always remains. The issue always comes back to how to correctly set up the sampling. While I won't go in to the specifics of how to do that using our MATLAB function here, I will present a simple sanity check based on first principles that allows for easy validation that simulated PSFs are in fact being represented in native detector sampling.

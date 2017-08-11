@@ -1,9 +1,6 @@
 Title: 2015 Santa Cruz 5010c 
 Date: 2015-07-11
-Category: outdoors
 Tags: bike
-Summary: Build log, specs, and a wishlist for my 2015 Santa Cruz 5010c.
-Slug: santa-cruz-5010c 
 Authors: AK
 
 ![2015 Santa Cruz 5010c]({filename}/img/santa-cruz-5010c.jpg)

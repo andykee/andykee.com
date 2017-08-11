@@ -1,10 +1,6 @@
 Title: Nyquist Sampling and FPAs
 Date: 
-Category: 
 Tags: optics
-Summary: 
-Slug: nyquist-sampling-and-fpas
-Authors: AK
 Status: draft
 
 

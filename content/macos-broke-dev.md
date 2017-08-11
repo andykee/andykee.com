@@ -1,10 +1,6 @@
 Title: macOS upgrade broke my dev shit! 
 Date: 2016-07-08
-Category: dev
 Tags: osx
-Summary: 
-Slug: macos-broke-dev
-Authors: AK
 
 After installing the macOS Sierra beta, I noticed git and homebrew weren't working anymore. The same thing happened when I upgraded to OSX El Cap. Moderately annoying, but simple to fix:
 
